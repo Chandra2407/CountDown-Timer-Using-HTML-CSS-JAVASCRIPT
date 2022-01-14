@@ -11,7 +11,7 @@ const text1 = document.getElementById("text1");
 
 function  countDownNewYear() {
    
-   let newYear = new Date("01/01/2022");
+   let newYear = new Date("01/01/2023");
    let currentDate = new Date();
    let totalSeconds = (newYear - currentDate)/1000;
    let days = Math.floor(totalSeconds/3600/24);
